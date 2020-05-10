@@ -40,7 +40,7 @@ email: castaldelliroberto@gmail.com
 avatar: assets/images/avatar.jpg
 
 # You'll want to customize url and baseurl for your own site:
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: # the subpath of your site, e.g. /blog
 url: "https://bobcastaldeli.github.io/" # the base hostname & protocol for your site
 
 # Social settings
@@ -55,11 +55,10 @@ stackoverflow_url:
 pinterest_url:
 slack_url:
 dribbble_url:
-remote_theme: bobcastaldeli/jekyll-theme-advanced-prologue
 
 # Google Analytics Tracking ID goes here:
 google_analytics:
 
 # The following settings are NECESSARY for the Prologue theme to run:
-theme: jekyll-theme-prologue
+remote_theme: chrisbobbe/jekyll-theme-prologue
 collections: [sections]
